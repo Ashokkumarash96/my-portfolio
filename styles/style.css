@@ -37,7 +37,7 @@ a {
 }
 
 .header {
-  height: 60vh;
+  height: 65vh;
 }
 
 .navbar {
@@ -71,6 +71,56 @@ a {
   color: var(--clr-dark-blue);
 }
 
+.hero-section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: calc(65vh-5rem);
+}
+
+.hero-title {
+  font-size: 3.5rem;
+}
+
+.hero-title span {
+  color: var(--clr-main);
+  font-weight: 900;
+  font-family: var(--ff-oleo);
+  font-kerning: initial;
+  line-height: 1.5rem;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  width: 90%;
+  margin: 1.25rem 0;
+  font-style: italic;
+}
+.contact-link-conatiner {
+  display: flex;
+  align-items: center;
+  min-height: 2rem;
+}
+.contact-item {
+  margin: 0 1rem;
+}
+.contact-link {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--clr-main);
+}
+
+.hero-img-container img {
+  border-radius: 70%;
+}
+
+/*content delivery network CDN - an online css file written by someone*/
+
+.contact-link :hover {
+  color: var(--clr-dark-blue);
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -82,15 +132,19 @@ a {
   .list-link {
     font-size: 1.25rem;
   }
-}
-
-.hero-section {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  height: calc(60vh-5rem);
-}
-
-.hero-left-section {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-title {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .hero-description {
+    font-size: 1rem;
+  }
+  .contact-link-conatiner {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
 }
