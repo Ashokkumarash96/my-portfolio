@@ -190,13 +190,17 @@ a {
 }
 .project-list-container {
   display: flex;
-  align-items: center;
+  align-items: space-around;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin-top: 2rem;
 }
-
+.project-img-container {
+  margin-left: 2rem;
+  justify-content: center;
+  align-items: center;
+}
 .project-list-item {
   width: 25rem;
   height: 22rem;
