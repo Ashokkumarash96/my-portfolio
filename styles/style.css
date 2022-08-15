@@ -37,7 +37,7 @@ a {
 }
 
 .header {
-  height: 65vh;
+  height: 75vh;
 }
 
 .navbar {
@@ -76,7 +76,7 @@ a {
   margin: auto;
   display: flex;
   align-items: center;
-  height: calc(65vh-5rem);
+  height: calc(75vh-5rem);
 }
 
 .hero-title {
@@ -112,7 +112,7 @@ a {
 }
 
 .hero-img-container img {
-  border-radius: 70%;
+  border-radius: 15%;
 }
 
 /*content delivery network CDN - an online css file written by someone*/
