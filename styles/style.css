@@ -215,6 +215,7 @@ a {
 
 .project-img-container {
   margin-left: 2rem;
+  margin-top: 1rem;
   justify-content: center;
   align-items: center;
 }
@@ -348,5 +349,46 @@ a {
   .contact-link-conatiner {
     justify-content: center;
     margin-bottom: 1rem;
+  }
+
+  hr {
+    margin-top: 5rem;
+
+  }
+
+  .section-center h2 {
+    margin-top: 2rem;
+  }
+
+  .hero-img-container img {
+    margin-left: 2rem;
+    border-radius: 15%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .project-img-container {
+    margin-left: -1rem;
+  }
+
+  .project-img-container img {
+    margin-left: 1.7rem;
+
+
+    width: 90%;
+
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .hero-img-container img {
+    margin-left: 5rem;
+  }
+
+  hr {
+    margin-top: 3rem;
+
   }
 }
