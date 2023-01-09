@@ -159,6 +159,7 @@ a {
 }
 
 .hero-img-container img {
+  width: 60%;
   margin-left: 20rem;
   border-radius: 15%;
 }
